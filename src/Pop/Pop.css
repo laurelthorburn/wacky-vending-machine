@@ -7,3 +7,25 @@
     -o-background-size: cover;
     background-size: cover;
 }
+
+.Pop-imgs{
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Pop-img{
+    height: 40vh;
+    animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
